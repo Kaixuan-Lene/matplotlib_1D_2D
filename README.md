@@ -1,4 +1,4 @@
-# matplotlib 画图（一维+二维）
+# matplotlib 绘图（一维+二维）
 1.基于python绘图，程序详细展示了绘图过程中详尽的命令语句，使得图片达到可发表程度。
 2.fig_1D.png 和 fig_2D.png 是程序效果图，可做参考。
 3.掌握之后，也可以做出S-polarized THz P-P 031 90.png 和 fig2.pdf的效果。
