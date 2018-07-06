@@ -20,13 +20,13 @@ plt.figure(figsize=(12,4.59))   #设置图片大小
 plt.subplot(121)
 plt.imshow(SPC_THG_S,extent=extent,cmap="jet", aspect='auto',origin='lower')
 
-plt.clim(0,1)   #cloebar 区间
+plt.clim(0,1)   #clobar 区间
 cb=plt.colorbar()
 cb.set_ticks(np.linspace(0,1,6))   #设置colorbar's ticks
 for l in cb.ax.yaxis.get_ticklabels():
     l.set_family("Times New Roman")   #设置字体
 
-ax = plt.gca()    #To get the current polar axes
+ax = plt.gca()    #To get the current axes
 Xscale = np.around(np.arange(0, 1.333, 0.32), decimals=2)
 ax.set_xticks(Xscale)
 ax.set_xticklabels(('0', '0.32', '0.64', '0.96', '1.28'), **nofont)
