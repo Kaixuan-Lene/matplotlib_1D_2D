@@ -1,6 +1,5 @@
 import numpy as np
 import matplotlib.pyplot as plt
-import matplotlib
 import datetime
 
 starttime=datetime.datetime.now()   #计时开始
