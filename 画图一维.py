@@ -1,7 +1,5 @@
 import matplotlib.pyplot as plt
-import matplotlib
 import numpy as np
-import pylab
 
 plt.figure(figsize=(18,6))   #set the size of the figure.
 Size=20
