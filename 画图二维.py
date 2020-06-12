@@ -45,6 +45,7 @@ cb=plt.colorbar()
 cb.set_ticks(np.linspace(0,1,6))
 for l in cb.ax.yaxis.get_ticklabels():
     l.set_family("Times New Roman")
+    l.set_size(16)
 
 ax = plt.gca()
 Xscale = np.around(np.arange(0, 1.333, 0.32), decimals=2)
